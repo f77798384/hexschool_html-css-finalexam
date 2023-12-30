@@ -1,0 +1,30 @@
+.wrap{
+    width: 500px;
+    margin: 0 auto;
+}
+.menu,table{
+    float: right;
+}
+.menu a{
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid black;
+    color: aqua;
+    transition: all .3s;
+    display: block;
+    padding: 5px 0;
+}
+.menu a:hover,.menu a.active{
+    background-color: blue;
+    color: #fff;
+}
+.menu>li{
+    float: left;
+    width: 100px;
+}
+.menu ul{
+    display: none;
+}
+tr,td,th{
+    border: 1px solid black;
+}
