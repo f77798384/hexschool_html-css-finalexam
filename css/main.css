@@ -179,7 +179,7 @@ h4{
     background-color: #d5fff4;
 }
 /* form */
-.form{
+.more-about{
     background: linear-gradient(#00654c,#009670);
     padding: 40px;
 }
@@ -191,36 +191,36 @@ h5{
     text-align: center;
     padding-bottom: 40px;
 }
-.form form{
+.more-about form{
     display: flex;
     line-height: 1.4;
 }
-.form textarea{
+.more-about textarea{
     width: 50%;
     margin-right: 40px;
     padding: 10px;
     resize: none;
     border-radius: 3px;
 }
-.form .personal-info{
+.more-about .personal-info{
     width: 50%;
 }
-.form .info{
+.more-about .info{
     display: flex;
     flex-direction: column;
     padding: 0 0 10px 0;
 }
-.form input{
+.more-about input{
     padding: 10px;
     border-radius: 3px;
     border: none;
 }
-.form label{
+.more-about label{
     color: white;
     font-weight: 700;
     padding: 3px;
 }
-.form button{
+.more-about button{
     float: right;
     background-color: #00cc99;
     border: none;
@@ -231,7 +231,7 @@ h5{
     display: block;
     cursor: pointer;
 }
-.form button:hover{
+.more-about button:hover{
     background-color: #00c191;
 }
 /* footbar */
