@@ -1,14 +1,7 @@
-/* 全域變化 */
-body{
+/* 設定頁面寬度 */
+.wrap{
     width: 1002px;
     margin: 0 auto;
-}
-a{
-    text-decoration: none;
-    color: #00251A;
-}
-*{
-    
 }
 /* top */
 .top-link ul{
@@ -24,11 +17,13 @@ a{
     color: #4267B2;
     letter-spacing: 1.2px;
     transition: 0.3s;
+    text-decoration: none;
 }
 .top-link .x-link a{
     color: #1DA1F2;
     letter-spacing: 1.2px;
     transition: 0.3s;
+    text-decoration: none;
 }
 .top-link .facebook-link a:hover,.top-link .x-link a:hover{
     opacity: 0.5;
@@ -55,6 +50,8 @@ a{
     font-weight: 700;
     letter-spacing: 1.2px;
     transition: 0.3s;
+    text-decoration: none;
+    color: #00251A;
 }
 .header .menu ul li a:hover{
     opacity: 0.7;
@@ -275,6 +272,7 @@ h5{
     font-size: 16px;
     color: #e54991;
     font-weight: bold;
+    text-decoration: none;
 }
 .footbar a:hover{
     opacity: 0.7;
